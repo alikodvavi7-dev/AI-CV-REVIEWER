@@ -31,6 +31,12 @@ Install the requirements:
 
 pip install -r requirements.txt
 
+Then run:
+
+streamlit run cv_ai_project.py
+
+You will also need to add your Gemini API key to .streamlit/secrets.toml
+
 ## Live App
 
 Try the deployed app here
@@ -40,10 +46,3 @@ https://ai-cv-reviewer-wk94y2yj7chelkr6cdubks.streamlit.app/
 
 
 
-
-
-Then run:
-
-streamlit run cv_ai_project.py
-
-You will also need to add your Gemini API key to .streamlit/secrets.toml
